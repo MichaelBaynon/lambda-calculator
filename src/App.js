@@ -7,6 +7,8 @@ import "./App.css";
 import Logo from "./components/DisplayComponents/Logo";
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers';
 import Operators from "./components/ButtonComponents/OperatorButtons/Operators";
+import Specials from './components/ButtonComponents/SpecialButtons/Specials';
+
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       </div>
       <Numbers />
       <Operators />
+      <Specials />
     </div>
   );
 }
