@@ -1,0 +1,52 @@
+.container {
+    background-color: crimson;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid grey;
+
+}
+
+.App {
+    border: solid green;
+    height: 490px;
+    display: flex;
+    align-items: center;
+}
+
+.App button {
+    color: white;
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    box-shadow: 3px 3px 5px black;
+    transition: .4s;
+}
+
+.App button:hover {
+    background-color: blueviolet;
+}
+
+p{
+color: white;
+background-color: black;
+width: 400px;
+margin: 0 auto;
+margin-bottom: 20px;
+margin-top: -20px;
+height: 80px;
+border-radius: 40px;
+font-size: 60px;
+}
+
+.logo {
+    margin: 35px;
+}
+
+.App .operators {
+    display: flex;
+    background-color: lightblue;
+}

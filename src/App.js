@@ -20,13 +20,18 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
+      <Logo className='logo'/>
+      <p>0</p>
       <div className="App">
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-      </div>
-      <Numbers />
-      <Operators />
+      
+      <Numbers/>
+      <Operators className='operators' />
       <Specials />
+        
+        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+      </div >
+      
+      
     </div>
   );
 }
