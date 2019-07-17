@@ -9,10 +9,12 @@
 }
 
 .App {
-    border: solid green;
+    width: 400px;
     height: 490px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    
 }
 
 .App button {
@@ -27,7 +29,8 @@
 }
 
 .App button:hover {
-    background-color: blueviolet;
+    background-color: rgb(0, 132, 255);
+    cursor: pointer;
 }
 
 p{
@@ -46,7 +49,7 @@ font-size: 60px;
     margin: 35px;
 }
 
-.App .operators {
+.operators {
     display: flex;
     background-color: lightblue;
 }
